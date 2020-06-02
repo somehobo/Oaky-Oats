@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276BD1082486F54B009F4890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BD1072486F54B009F4890 /* AppDelegate.swift */; };
+		276BD10A2486F54B009F4890 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BD1092486F54B009F4890 /* SceneDelegate.swift */; };
+		276BD10C2486F54B009F4890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BD10B2486F54B009F4890 /* ViewController.swift */; };
+		276BD10F2486F54B009F4890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276BD10D2486F54B009F4890 /* Main.storyboard */; };
+		276BD1122486F54B009F4890 /* OakyOats.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 276BD1102486F54B009F4890 /* OakyOats.xcdatamodeld */; };
+		276BD1142486F54C009F4890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276BD1132486F54C009F4890 /* Assets.xcassets */; };
+		276BD1172486F54C009F4890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276BD1152486F54C009F4890 /* LaunchScreen.storyboard */; };
+		276BD1222486F54C009F4890 /* OakyOatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BD1212486F54C009F4890 /* OakyOatsTests.swift */; };
+		276BD12D2486F54C009F4890 /* OakyOatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276BD12C2486F54C009F4890 /* OakyOatsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276BD11E2486F54C009F4890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276BD0FC2486F54B009F4890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276BD1032486F54B009F4890;
+			remoteInfo = OakyOats;
+		};
+		276BD1292486F54C009F4890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276BD0FC2486F54B009F4890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276BD1032486F54B009F4890;
+			remoteInfo = OakyOats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		276BD1042486F54B009F4890 /* OakyOats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OakyOats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276BD1072486F54B009F4890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		276BD1092486F54B009F4890 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		276BD10B2486F54B009F4890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		276BD10E2486F54B009F4890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276BD1112486F54B009F4890 /* OakyOats.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OakyOats.xcdatamodel; sourceTree = "<group>"; };
+		276BD1132486F54C009F4890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		276BD1162486F54C009F4890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		276BD1182486F54C009F4890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276BD11D2486F54C009F4890 /* OakyOatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OakyOatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276BD1212486F54C009F4890 /* OakyOatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OakyOatsTests.swift; sourceTree = "<group>"; };
+		276BD1232486F54C009F4890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276BD1282486F54C009F4890 /* OakyOatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OakyOatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276BD12C2486F54C009F4890 /* OakyOatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OakyOatsUITests.swift; sourceTree = "<group>"; };
+		276BD12E2486F54C009F4890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276BD1012486F54B009F4890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276BD11A2486F54C009F4890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276BD1252486F54C009F4890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276BD0FB2486F54B009F4890 = {
+			isa = PBXGroup;
+			children = (
+				276BD1062486F54B009F4890 /* OakyOats */,
+				276BD1202486F54C009F4890 /* OakyOatsTests */,
+				276BD12B2486F54C009F4890 /* OakyOatsUITests */,
+				276BD1052486F54B009F4890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276BD1052486F54B009F4890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276BD1042486F54B009F4890 /* OakyOats.app */,
+				276BD11D2486F54C009F4890 /* OakyOatsTests.xctest */,
+				276BD1282486F54C009F4890 /* OakyOatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276BD1062486F54B009F4890 /* OakyOats */ = {
+			isa = PBXGroup;
+			children = (
+				276BD1072486F54B009F4890 /* AppDelegate.swift */,
+				276BD1092486F54B009F4890 /* SceneDelegate.swift */,
+				276BD10B2486F54B009F4890 /* ViewController.swift */,
+				276BD10D2486F54B009F4890 /* Main.storyboard */,
+				276BD1132486F54C009F4890 /* Assets.xcassets */,
+				276BD1152486F54C009F4890 /* LaunchScreen.storyboard */,
+				276BD1182486F54C009F4890 /* Info.plist */,
+				276BD1102486F54B009F4890 /* OakyOats.xcdatamodeld */,
+			);
+			path = OakyOats;
+			sourceTree = "<group>";
+		};
+		276BD1202486F54C009F4890 /* OakyOatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				276BD1212486F54C009F4890 /* OakyOatsTests.swift */,
+				276BD1232486F54C009F4890 /* Info.plist */,
+			);
+			path = OakyOatsTests;
+			sourceTree = "<group>";
+		};
+		276BD12B2486F54C009F4890 /* OakyOatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				276BD12C2486F54C009F4890 /* OakyOatsUITests.swift */,
+				276BD12E2486F54C009F4890 /* Info.plist */,
+			);
+			path = OakyOatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276BD1032486F54B009F4890 /* OakyOats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276BD1312486F54C009F4890 /* Build configuration list for PBXNativeTarget "OakyOats" */;
+			buildPhases = (
+				276BD1002486F54B009F4890 /* Sources */,
+				276BD1012486F54B009F4890 /* Frameworks */,
+				276BD1022486F54B009F4890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OakyOats;
+			productName = OakyOats;
+			productReference = 276BD1042486F54B009F4890 /* OakyOats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276BD11C2486F54C009F4890 /* OakyOatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276BD1342486F54C009F4890 /* Build configuration list for PBXNativeTarget "OakyOatsTests" */;
+			buildPhases = (
+				276BD1192486F54C009F4890 /* Sources */,
+				276BD11A2486F54C009F4890 /* Frameworks */,
+				276BD11B2486F54C009F4890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276BD11F2486F54C009F4890 /* PBXTargetDependency */,
+			);
+			name = OakyOatsTests;
+			productName = OakyOatsTests;
+			productReference = 276BD11D2486F54C009F4890 /* OakyOatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		276BD1272486F54C009F4890 /* OakyOatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276BD1372486F54C009F4890 /* Build configuration list for PBXNativeTarget "OakyOatsUITests" */;
+			buildPhases = (
+				276BD1242486F54C009F4890 /* Sources */,
+				276BD1252486F54C009F4890 /* Frameworks */,
+				276BD1262486F54C009F4890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276BD12A2486F54C009F4890 /* PBXTargetDependency */,
+			);
+			name = OakyOatsUITests;
+			productName = OakyOatsUITests;
+			productReference = 276BD1282486F54C009F4890 /* OakyOatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276BD0FC2486F54B009F4890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Nolan Brady";
+				TargetAttributes = {
+					276BD1032486F54B009F4890 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					276BD11C2486F54C009F4890 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 276BD1032486F54B009F4890;
+					};
+					276BD1272486F54C009F4890 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 276BD1032486F54B009F4890;
+					};
+				};
+			};
+			buildConfigurationList = 276BD0FF2486F54B009F4890 /* Build configuration list for PBXProject "OakyOats" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276BD0FB2486F54B009F4890;
+			productRefGroup = 276BD1052486F54B009F4890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276BD1032486F54B009F4890 /* OakyOats */,
+				276BD11C2486F54C009F4890 /* OakyOatsTests */,
+				276BD1272486F54C009F4890 /* OakyOatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276BD1022486F54B009F4890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276BD1172486F54C009F4890 /* LaunchScreen.storyboard in Resources */,
+				276BD1142486F54C009F4890 /* Assets.xcassets in Resources */,
+				276BD10F2486F54B009F4890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276BD11B2486F54C009F4890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276BD1262486F54C009F4890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276BD1002486F54B009F4890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276BD1122486F54B009F4890 /* OakyOats.xcdatamodeld in Sources */,
+				276BD10C2486F54B009F4890 /* ViewController.swift in Sources */,
+				276BD1082486F54B009F4890 /* AppDelegate.swift in Sources */,
+				276BD10A2486F54B009F4890 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276BD1192486F54C009F4890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276BD1222486F54C009F4890 /* OakyOatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276BD1242486F54C009F4890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276BD12D2486F54C009F4890 /* OakyOatsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276BD11F2486F54C009F4890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276BD1032486F54B009F4890 /* OakyOats */;
+			targetProxy = 276BD11E2486F54C009F4890 /* PBXContainerItemProxy */;
+		};
+		276BD12A2486F54C009F4890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276BD1032486F54B009F4890 /* OakyOats */;
+			targetProxy = 276BD1292486F54C009F4890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276BD10D2486F54B009F4890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276BD10E2486F54B009F4890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276BD1152486F54C009F4890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276BD1162486F54C009F4890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276BD12F2486F54C009F4890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		276BD1302486F54C009F4890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276BD1322486F54C009F4890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHH829YDK9;
+				INFOPLIST_FILE = OakyOats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NolanBrady.OakyOats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		276BD1332486F54C009F4890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHH829YDK9;
+				INFOPLIST_FILE = OakyOats/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NolanBrady.OakyOats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		276BD1352486F54C009F4890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHH829YDK9;
+				INFOPLIST_FILE = OakyOatsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NolanBrady.OakyOatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OakyOats.app/OakyOats";
+			};
+			name = Debug;
+		};
+		276BD1362486F54C009F4890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHH829YDK9;
+				INFOPLIST_FILE = OakyOatsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NolanBrady.OakyOatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OakyOats.app/OakyOats";
+			};
+			name = Release;
+		};
+		276BD1382486F54C009F4890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHH829YDK9;
+				INFOPLIST_FILE = OakyOatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NolanBrady.OakyOatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OakyOats;
+			};
+			name = Debug;
+		};
+		276BD1392486F54C009F4890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DHH829YDK9;
+				INFOPLIST_FILE = OakyOatsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NolanBrady.OakyOatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OakyOats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276BD0FF2486F54B009F4890 /* Build configuration list for PBXProject "OakyOats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276BD12F2486F54C009F4890 /* Debug */,
+				276BD1302486F54C009F4890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276BD1312486F54C009F4890 /* Build configuration list for PBXNativeTarget "OakyOats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276BD1322486F54C009F4890 /* Debug */,
+				276BD1332486F54C009F4890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276BD1342486F54C009F4890 /* Build configuration list for PBXNativeTarget "OakyOatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276BD1352486F54C009F4890 /* Debug */,
+				276BD1362486F54C009F4890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276BD1372486F54C009F4890 /* Build configuration list for PBXNativeTarget "OakyOatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276BD1382486F54C009F4890 /* Debug */,
+				276BD1392486F54C009F4890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		276BD1102486F54B009F4890 /* OakyOats.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				276BD1112486F54B009F4890 /* OakyOats.xcdatamodel */,
+			);
+			currentVersion = 276BD1112486F54B009F4890 /* OakyOats.xcdatamodel */;
+			path = OakyOats.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 276BD0FC2486F54B009F4890 /* Project object */;
+}
