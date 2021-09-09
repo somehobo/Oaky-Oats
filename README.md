@@ -19,7 +19,8 @@ however the need for this app declined because other climbing gyms opened up
 
 ## Route Creation
 
-In Creating a route you must add the names of the holds which belong to it, as well as a picture of the route
+In Creating a route you must add the names of the holds which belong to it, as well as a picture of the route.
+Once finished it uploads the route to a cloudkit databased where it is accessed later
 
 ![Adding picture](https://i.imgur.com/ApVUbel.png?1)
 
