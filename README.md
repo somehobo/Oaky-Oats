@@ -12,4 +12,8 @@ however the need for this app declined because other climbing gyms opened up
 
 ![Home Page](https://i.imgur.com/hPFY4WH.png1)
 
+In Creating a route you must add the names of the holds which belong to it, as well as a picture of the route
+
+![Adding picture](https://i.imgur.com/ApVUbel.png?1)
+
 
